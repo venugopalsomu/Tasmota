@@ -369,7 +369,6 @@ void BacklogLoop(void)
 //planning to edit code to support Touch functionality with I2C driver
 void loop(void)
 {
-  Serial.println("Test code");
   uint32_t my_sleep = millis();
 
   XdrvCall(FUNC_LOOP);
